@@ -1,0 +1,30 @@
+
+.header{
+    margin:40px;
+    font-size:50px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding:3px;
+}
+
+body{
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    background-color:rgb(255, 183, 0);
+}
+
+img{
+    border: 3px solid black;
+    width: 50%;
+    height: 40%;
+}
+
+.look{
+    margin:30px;
+    padding:3px;
+}
+
+.look:hover{
+    font-size:35px;
+    background-color: rgb(255, 157, 0);
+}
