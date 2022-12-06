@@ -7,10 +7,26 @@
     padding:3px;
 }
 
-body{
+.body_mod{
     font-family: 'DM Serif Display', serif;
     text-align: center;
     background-color:rgb(255, 183, 0);
+}
+
+.body_recipes{
+    font-family: 'DM Serif Display', serif;
+    background-color:rgb(255, 183, 0);
+    text-align: center;
+}
+ul {
+    list-style-position: inside;
+    list-style:disc;
+    margin-inline:250px;
+    padding:2px;
+}
+li{
+    background-color: rgb(255, 170, 24);
+    padding:2px;
 }
 
 img{
@@ -27,4 +43,21 @@ img{
 .look:hover{
     font-size:35px;
     background-color: rgb(255, 157, 0);
+}
+
+footer{
+    margin-top: 130px;
+    font-size: 20px;
+    background-color: gold;
+    overflow: auto;
+}
+
+.top-nav{
+    font-size: 20px;
+    text-align: right;
+    background-color: rgb(251, 143, 48);
+    text-decoration: none;
+}
+.top-nav a:hover{
+    background-color: gold
 }
